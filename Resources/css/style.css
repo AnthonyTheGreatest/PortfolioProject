@@ -73,7 +73,6 @@ a {
 
 #about-me .image-container {
     overflow: hidden;
-    flex-basis: 50%;
 }
 
 #about-me .image-container img {
