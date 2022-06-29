@@ -1,0 +1,118 @@
+/* General*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #323232;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section, footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #323232;
+}
+
+/* Nav Section*/
+
+#nav {
+    height: 50px;
+}
+
+#nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav .content {
+    display: flex;
+    align-items: center;
+    /*flex: 1;*/
+}
+
+#nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#nav li {
+    margin-right: 1rem;
+}
+
+/* About Me Section */
+
+#about-me .container {
+    display: flex;
+}
+
+#about-me .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-me p {
+    margin: 1rem 1rem 0 0;
+}
+
+#about-me .image-container {
+    overflow: hidden;
+}
+
+#about-me .image-container img {
+    display: block;
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+/* Projects Section */
+
+
+
+/* Skills Section */
+
+/* Footer Section */
+
+/*#footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}*/
+
+#footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .content {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .image-container {
+    overflow: hidden;
+}
+
+#footer .image-container img {
+    display: block;
+    max-width: 100%;
+    width: 1rem;
+    height: auto;
+    margin: 0 0.5rem 0 0.5rem;
+}
