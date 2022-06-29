@@ -73,6 +73,7 @@ a {
 
 #about-me .image-container {
     overflow: hidden;
+    flex-basis: 50%;
 }
 
 #about-me .image-container img {
@@ -83,17 +84,36 @@ a {
 
 /* Projects Section */
 
+#projects img {
+    width: 1rem;
+}
 
+#projects li {
+    margin-top: 1rem;
+}
+
+#projects p {
+    display: inline-block;
+}
 
 /* Skills Section */
 
-/* Footer Section */
-
-/*#footer {
+#skills .content {
     display: flex;
-    justify-content: center;
     width: 100%;
-}*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#skills h2 {
+    margin-bottom: 1rem;
+}
+
+#skills .image-container {
+    margin: 0 1% 0 1%;
+}
+
+/* Footer Section */
 
 #footer .container {
     display: flex;
