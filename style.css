@@ -129,6 +129,7 @@ p {
 #footer .content {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #footer .image-container {
